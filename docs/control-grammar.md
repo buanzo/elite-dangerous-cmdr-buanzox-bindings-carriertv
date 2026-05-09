@@ -25,6 +25,16 @@ This profile is designed as a control grammar, not a flat button list.
 - `TRIANGLE+R1`: toggle Flight Assist.
 - `CIRCLE+D-PAD LEFT`: toggle Alternate Controls.
 - `SQUARE+D-PAD LEFT`: external panel.
+- `SQUARE+D-PAD UP`: comms panel.
+- `SQUARE+D-PAD RIGHT`: internal panel.
 - `TRIANGLE+D-PAD LEFT`: galaxy map.
+
+## Bottom Panel Exception
+
+`SQUARE+D-PAD DOWN` looks like it should complete the Square-plus-D-pad panel set, but it does not. In this profile it is `SET SPEED TO 25%`.
+
+For the bottom/role panel, use the recovered method: press `R3+L3` to enter headlook, look down until the panel focuses, then press `R3+L3` again to exit.
+
+If you want a direct bottom-panel shortcut, `SQUARE+X` is a clean optional candidate to add manually. It is not included in the released `.binds` files.
 
 The tutorial video highlights these combinations on a DualShock-style controller so the viewer sees both the binding and the physical button family.

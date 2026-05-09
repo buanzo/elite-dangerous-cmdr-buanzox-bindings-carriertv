@@ -1,6 +1,6 @@
 # CMDR Buanzox Elite Dangerous Controller Bindings
 
-Public release data for the CarrierTV tutorial about CMDR Buanzox's recovered Elite Dangerous controller profile.
+Public release data for the CarrierTV tutorial about CMDR Buanzox's Elite Dangerous controller profile.
 
 This repository is intended to contain only public-safe data: installable `.binds` files, reviewed control tables, and documentation. It intentionally does not contain source videos, screenshots, raw captures, review sheets, local run folders, personal identifiers, or generated tutorial videos.
 
@@ -42,6 +42,83 @@ The video explains the profile as a control grammar, not just a button list:
 - Regular controls are kept for temporary lateral-thrust work.
 - Flight Assist Off is treated as a deliberate combat posture.
 - Button families are used for memory: Cross for extremes and targeting, Circle for approach/utilities, Square for weapons/panels, Triangle for travel/maps/ship state.
+
+## Full Binding List
+
+This is the practical assigned-button list from the public data tables. The TSV and JSON files also include blank, default, axis, and evidence rows for audit.
+
+### Flight Layers and Movement
+
+| Action | Binding |
+| --- | --- |
+| Yaw left | `L1` |
+| Yaw right | `R1` |
+| Alternate Controls toggle | `CIRCLE+D-PAD LEFT` |
+
+### Throttle Doctrine
+
+| Action | Binding |
+| --- | --- |
+| Set speed to -100% | `X+L1` |
+| Set speed to 0% | `L1+R1` |
+| Set speed to 25% | `SQUARE+D-PAD DOWN` |
+| Set speed to 50% | `SQUARE+R1` |
+| Set speed to 75% | `CIRCLE` |
+| Set speed to 100% | `X+R1` |
+
+### Combat and Flight Assist
+
+| Action | Binding |
+| --- | --- |
+| Primary fire | `R2` |
+| Secondary fire | `L2` |
+| Deploy hardpoints | `SQUARE` |
+| Cycle next fire group | `SQUARE+L1` |
+| Toggle Flight Assist | `TRIANGLE+R1` |
+| Engine boost | `CIRCLE+L1` |
+| Silent running | `TRIANGLE+L1` |
+| Toggle orbit lines | `R3` |
+
+### Targeting
+
+| Action | Binding |
+| --- | --- |
+| Select target ahead | `X` |
+| Cycle next target | `X+D-PAD LEFT` |
+| Select highest threat | `X+D-PAD DOWN` |
+| Select wingman's target | `X+D-PAD RIGHT` |
+| Cycle next subsystem | `X+D-PAD UP` |
+| Target next system in route | `CIRCLE+R1` |
+
+### Power and Ship Utilities
+
+| Action | Binding |
+| --- | --- |
+| Divert power to engines | `D-PAD UP` |
+| Divert power to weapons | `D-PAD RIGHT` |
+| Divert power to systems | `D-PAD LEFT` |
+| Balance power distribution | `D-PAD DOWN` |
+| Cargo scoop | `CIRCLE+D-PAD UP` |
+| Landing gear | `CIRCLE+D-PAD DOWN` |
+| Ship lights | `TRIANGLE+R3` |
+| Night vision | `TRIANGLE+L3` |
+
+### Panels, Maps, and Headlook
+
+| Action | Binding |
+| --- | --- |
+| External panel | `SQUARE+D-PAD LEFT` |
+| Comms panel | `SQUARE+D-PAD UP` |
+| Internal panel | `SQUARE+D-PAD RIGHT` |
+| Open galaxy map | `TRIANGLE+D-PAD LEFT` |
+| Open system map | `TRIANGLE+D-PAD RIGHT` |
+| Supercruise | `TRIANGLE+D-PAD DOWN` |
+| Hyperspace jump | `TRIANGLE+D-PAD UP` |
+| Switch cockpit mode | `TOUCHPAD` |
+| Enter FSS mode | `TOUCHPAD` |
+| Headlook | `R3+L3` |
+
+Bottom/role panel note: the expected-looking `SQUARE+D-PAD DOWN` is not a bottom-panel binding in this profile; it sets speed to 25%. To use the bottom/role panel, toggle headlook with `R3+L3`, look down until the panel focuses, then press `R3+L3` again to exit. If you want a direct bottom-panel shortcut, `SQUARE+X` is a clean optional candidate to add manually, but it is not included in these released `.binds` files.
 
 ## Privacy Boundary
 
