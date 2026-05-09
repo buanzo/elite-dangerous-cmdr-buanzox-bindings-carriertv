@@ -2,6 +2,8 @@
 
 Public release data for the CarrierTV tutorial about CMDR Buanzox's Elite Dangerous controller profile.
 
+Español: [README.es.md](README.es.md). This is the only translated asset in the repository; data tables, detailed docs, filenames, and binding names remain in English.
+
 This repository is intended to contain only public-safe data: installable `.binds` files, reviewed control tables, and documentation. It intentionally does not contain source videos, screenshots, raw captures, review sheets, local run folders, personal identifiers, or generated tutorial videos.
 
 ## Presets

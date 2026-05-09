@@ -8,3 +8,4 @@ OpenAI Codex / Jadzia
 - Assisted with generating the installable BUANZOFAOFF and BUANZOFAOFFXINPUT .binds files.
 - Assisted with tutorial planning, sanitized packaging, documentation, and privacy checklist drafting.
 - Assisted with public README binding-list documentation and final video reference-card preparation.
+- Assisted with the Spanish README translation and Spanish tutorial artifact preparation.
