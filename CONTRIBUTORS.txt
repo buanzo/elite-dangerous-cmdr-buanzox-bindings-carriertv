@@ -1,0 +1,9 @@
+CMDR Buanzox / Arturo Busleiman
+- Created the original Elite Dangerous controller profile and operating doctrine.
+- Recovered and reviewed the source material.
+- Owns the public-release decision, privacy gate, and final tutorial context.
+
+OpenAI Codex / Jadzia
+- Assisted with structuring the recovered catalog into public data tables.
+- Assisted with generating the installable BUANZOFAOFF and BUANZOFAOFFXINPUT .binds files.
+- Assisted with tutorial planning, sanitized packaging, documentation, and privacy checklist drafting.
